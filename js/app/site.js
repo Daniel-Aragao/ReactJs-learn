@@ -1,5 +1,5 @@
 requirejs(['jquery'],
 function($){
-    console.log('hello');
-    console.log($('span').text());
+    alert('hello');
+    alert($('span').text());
 });
