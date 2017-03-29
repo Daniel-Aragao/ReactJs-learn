@@ -1,6 +1,6 @@
-requirejs.config({
+var require = {
     //By default load any module IDs from js/lib
-    //baseUrl: 'js/libs',
+    baseUrl: '/js/libs',
 
     //except, if the module ID starts with "app",
     //load it from the js/app directory. paths
@@ -8,6 +8,6 @@ requirejs.config({
     //never includes a ".js" extension since
     //the paths config could be for a directory.
     paths: {
-        "jquery": "/js/libs/jquery-3.2.0.min.js",
+        "jquery": "jquery-3.2.0.min",
     }
-});
+};

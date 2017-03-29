@@ -1,5 +1,4 @@
-requirejs(['jquery'],
-function($){
+require(['jquery'], function($){
     alert('hello');
     alert($('span').text());
 });
