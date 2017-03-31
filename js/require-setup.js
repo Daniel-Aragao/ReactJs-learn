@@ -8,7 +8,7 @@ var require = {
     //never includes a ".js" extension since
     //the paths config could be for a directory.
     paths: {
-        //"jquery": "jquery-3.2.0.min",
-        "jquery":"//ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min"
+        "jquery": "jquery-3.2.0.min",
+        //"jquery":"//ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min"
     }
 };
